@@ -68,17 +68,17 @@ pip install -r requirements.txt
 
 ### 3. Prepare the dataset
 ```bash
-python dataset/prepare_dataset.py
+python prepare_dataset.py
 ```
 
 ### 4. Train the model
 ```bash
-python model/train_model.py
+python train_model.py
 ```
 
 ### 5. Run inference (CLI)
 ```bash
-python inference/predict.py
+python predict.py
 ```
 
 ---
