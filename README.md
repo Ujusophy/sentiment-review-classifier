@@ -42,7 +42,7 @@ sentiment-review-classifier/
 
 ## 📚 Dataset
 
-- **Source**: [UCI Sentiment Labelled Sentences Data Set](https://archive.ics.uci.edu/ml/datasets/Sentiment+Labelled+Sentences)
+- **Source**: [UCI Sentiment Labelled Sentences Data Set]([https://archive.ics.uci.edu/ml/datasets/Sentiment+Labelled+Sentences](https://archive.ics.uci.edu/ml/machine-learning-databases/00331/sentiment%20labelled%20sentences.zip))
 - **Files**: 
   - `amazon_cells_labelled.txt`
   - `imdb_labelled.txt`
