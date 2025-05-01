@@ -29,23 +29,10 @@ Imagine running a marketplace or online store—this tool helps you:
 
 ```bash
 sentiment-review-classifier/
-├── data/                               # Raw and processed data files
-│   └── sentiment_labelled_sentences/
-│
-├── dataset/
-│   └── prepare_dataset.py              # Combines and cleans UCI dataset
-│
-├── model/
-│   ├── train_model.py                  # Fine-tunes DistilBERT
-│   └── evaluate_model.py               # (Optional) Evaluate metrics
-│
-├── inference/
-│   ├── predict.py                      # Command-line inference
-│   └── api.py                          # REST API with FastAPI
-│
-├── utils/
-│   └── config.py                       # Model and training configs
-│
+├── sentiment_dataset                             
+├── prepare_dataset.py            
+├── train_model.py             
+│── evaluate_model.py                                       
 ├── requirements.txt
 ├── README.md
 └── .gitignore
