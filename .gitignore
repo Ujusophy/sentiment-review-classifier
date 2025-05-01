@@ -1,0 +1,6 @@
+logs/                        
+*.log  
+model.ipynb
+results
+sentiment_dataset.csv 
+
