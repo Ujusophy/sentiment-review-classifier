@@ -76,18 +76,13 @@ python prepare_dataset.py
 python train_model.py
 ```
 
-### 5. Run It Locally
-```bash
-python -m uvicorn api:app --reload
-```
-
 ---
 
 ## 🌐 Run as an API (optional)
 
 ### 1. Start FastAPI server
 ```bash
-uvicorn inference.api:app --reload
+python -m uvicorn api:app --reload
 ```
 
 ### 2. Test it
