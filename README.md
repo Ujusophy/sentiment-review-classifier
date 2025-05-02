@@ -29,10 +29,10 @@ Imagine running a marketplace or online store—this tool helps you:
 
 ```bash
 sentiment-review-classifier/
-├── sentiment_dataset                             
+├── sentiment_dataset  (Gotten from Data Source)                           
 ├── prepare_dataset.py            
 ├── train_model.py             
-│── evaluate_model.py                                       
+│── api.py                                       
 ├── requirements.txt
 ├── README.md
 └── .gitignore
@@ -76,21 +76,9 @@ python prepare_dataset.py
 python train_model.py
 ```
 
-### 5. Run inference (CLI)
+### 5. Run It Locally
 ```bash
-python predict.py
-```
-
----
-
-## 🔍 Sample CLI Output
-
-```
-Enter a review (or 'exit'): This product is amazing, I love it!
-Prediction: LABEL_1 | Confidence: 0.95
-
-Enter a review (or 'exit'): Total waste of money.
-Prediction: LABEL_0 | Confidence: 0.97
+python -m uvicorn api:app --reload
 ```
 
 ---

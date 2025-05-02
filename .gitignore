@@ -1,4 +1,6 @@
-logs/                        
+logs/ 
+results/
+sentiment_model/
 *.log  
 model.ipynb
 results
